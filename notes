@@ -1,0 +1,56 @@
+Async/Await 
+	Protocol
+	Iterator protocol - __await__, __aiter__, __anext__
+
+Framework
+
+OS -> Python Interpreter –> Asyn FW -> Application FW [Django/Flask]
+
+Twisted & Tornado 
+	Twisted – mother of async in python
+	
+	Tornado – Can/Will run on top of aync
+
+Curio/Trio
+	Makes Async easier to propose
+
+	Not mainstream
+
+Asyncio Basics
+a.	Low level API
+b.	Async / wait – high level
+c.	Here to stay
+d.	Run eventloop
+
+Low level API
+•	Call backs
+•	Transport & protocol
+•	Network/Sub process & Signals
+
+High Level API – Async Await
+•	Run coroutines
+•	Stream/Sockets, sub process locks, & timeouts	
+	
+Mainstream
+	Stable & Forever supported
+	HTTP – aiohttp & Sanic
+	DBS - aiolibs
+
+	Event Loop
+o	Integrate with FW
+o	Uvloop – makes asyncio – 2-4 times faster
+o	Rust meets Python	
+o	Safety and performance
+o	Incomplete n experimental
+
+Real Tutorial
+	
+	Makes code go fast
+	Multiple Thread – Line of execution, GIL[mutex] prevents multi core concurrency [share CPU]
+
+	Async Program – No OS intervention, 1 process, 1 thread
+
+	
+	
+	
+
